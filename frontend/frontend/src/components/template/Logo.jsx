@@ -1,7 +1,12 @@
 import './Logo.css'
+
 import React from 'react'
 
-export default props =>
+export default props => (
     <aside className='logo'>
-        Logo
+        <a href="/" className="logo">
+            <span>Tech Index</span>
+            <span>{'</>'}</span>
+        </a>
     </aside>
+);
